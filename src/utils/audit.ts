@@ -2,6 +2,7 @@ import { DataProvider } from 'react-admin';
 import constants from '../constants';
 import { getToken } from '../providers/authProvider';
 
+
 export enum AuditType {
 	LOGIN = 'login',
 	LOGOUT = 'logout',

@@ -3,7 +3,6 @@ import { Login } from '@mui/icons-material';
 import { Box, Icon } from '@mui/material';
 import { type Theme } from '@mui/system';
 import { makeStyles } from '@mui/styles';
-import { Image } from 'mui-image';
 
 import {
 	AppBar,
@@ -97,7 +96,7 @@ const MyAppBar = (props: AppBarProps): React.ReactElement => (
 	</AppBar>
 );
 
-const MyLayout = (props: LayoutProps) => (
+const MyLayout = (props: LayoutProps): React.ReactElement => (
 	<Layout {...props} appBar={MyAppBar} menu={SideMenus}>
 		{props.children}
 		<Footer />
